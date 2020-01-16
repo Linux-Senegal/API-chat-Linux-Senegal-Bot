@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+<!-- -->
+<!-- Free software (c) 2011 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- Last modified 10/5/2011 -->
+<!-- -->
+<category>
+	<pattern>OÙ DORMIR</pattern>
+	<template><srai>HÔTELS</srai></template>
+</category>
+<category>
+	<pattern>TROUVE OÙ DORMIR</pattern>
+	<template><srai>HÔTELS</srai></template>
+</category>
+<category>
+	<pattern>TROUVE MOI OÙ DORMIR</pattern>
+	<template><srai>HÔTELS</srai></template>
+</category>
+<category>
+	<pattern>OÙ DORMIR *</pattern>
+	<template><srai>HÔTELS</srai></template>
+</category>
+<category>
+	<pattern>Ou DORMIR</pattern>
+	<template><srai>HÔTELS</srai></template>
+</category>
+<category>
+	<pattern>TROUVE MOI OU DOMIR</pattern>
+	<template><srai>HÔTELS</srai></template>
+</category>
+<category>
+	<pattern>TROUVE OU DOMIR</pattern>
+	<template><srai>HÔTELS</srai></template>
+</category>
+<category>
+	<pattern>OU DORMIR *</pattern>
+	<template><srai>HÔTELS</srai></template>
+</category>
+<category>
+	<pattern>TROUVE UN ENDROIT OÙ DORMIR</pattern>
+	<template><srai>HÔTELS</srai></template>
+</category>
+<category>
+	<pattern>TROUVE UN ENDROIT OU DORMIR</pattern>
+	<template><srai>HÔTELS</srai></template>
+</category>
+<category>
+	<pattern>HÔTEL</pattern>
+	<template><srai>HÔTELS</srai></template>
+</category>
+<category>
+	<pattern>TROUVE MOI UN HÔTEL</pattern>
+	<template><srai>HÔTELS</srai></template>
+</category>
+<category>
+	<pattern>TROUVE MOI HÔTEL</pattern>
+	<template><srai>HÔTELS</srai></template>
+</category>
+<category>
+	<pattern>HÔTELS</pattern>
+	<template><bot name="user"/>, L'île de Goree offre un large éventail d'hébergements pour tous les goûts🏠|hot-show-hotels
+	</template>
+</category>
+<category>
+	<pattern>CHEVALIER DE BOUFFLERS</pattern>
+	<template><srai>HÔTEL CHEVALIER DE BOUFFLERS</srai></template>
+</category>
+<category>
+	<pattern>HÔTEL CHEVALIER DE BOUFFLERS</pattern>
+	<template>Hôtel|hot-show-chevalier-de-boufflers</template>
+</category>
+<category>
+	<pattern>SERVICES HÔTEL CHEVALIER DE BOUFFLERS</pattern>
+	<template>
+		Catégorie de prix : 39 € - 55 € (Selon les tarifs moyens d'une chambre standard)
+		Catégorie d'hôtel : 3 étoile(s) — Chevalier de Boufflers 3*
+		Nombre de chambres: 239
+	</template>
+</category>
+<category>
+	<pattern>PHOTOS HÔTEL CHEVALIER DE BOUFFLERS</pattern>
+	<template>
+		Photos de voyageurs|hot-show-photo-chevalier-de-boufflers
+	</template>
+</category>
+<category>
+	<pattern>DISPONIBILITÉS HÔTEL CHEVALIER DE BOUFFLERS</pattern>
+	<template>
+		Choisir une option|hot-check-chevalier-de-boufflers
+	</template>
+</category>
+<category>
+	<pattern>VILLA CASTEL</pattern>
+	<template><srai>HOTEL VILLA CASTEL</srai></template>
+</category>
+<category>
+	<pattern>HÔTEL VILLA CASTEL</pattern>
+	<template>Hôtel|hot-show-villa-castel</template>
+</category>
+<category>
+	<pattern>SERVICES HÔTEL VILLA CASTEL</pattern>
+	<template>
+		Fourchette de prix (par nuit): 53 € - 99 € (Selon les tarifs moyens d'une chambre standard)
+		Nombre de chambres: 4
+	</template>
+</category>
+<category>
+	<pattern>PHOTOS HÔTEL VILLA CASTEL</pattern>
+	<template>
+		Photos de voyageurs|hot-show-photo-villa-castel
+	</template>
+</category>
+<category>
+	<pattern>DISPONIBILITÉS HÔTEL VILLA CASTEL</pattern>
+	<template>
+		Choisir une option|hot-check-villa-castel
+	</template>
+</category>
+<category>
+	<pattern>MAISON AUGUSTIN LY</pattern>
+	<template><srai>HÔTEL MAISON AUGUSTIN LY</srai></template>
+</category>
+<category>
+	<pattern>HÔTEL MAISON AUGUSTIN LY</pattern>
+	<template>Hôtel|hot-show-maison-augustin-ly</template>
+</category>
+<category>
+	<pattern>SERVICES HÔTEL MAISON AUGUSTIN LY</pattern>
+	<template>
+		Fourchette de prix (par nuit): 47 € - 54 € (Selon les tarifs moyens d'une chambre standard)
+		Nombre de chambres: 5
+	</template>
+</category>
+<category>
+	<pattern>PHOTOS HÔTEL MAISON AUGUSTIN LY</pattern>
+	<template>
+		Photos de voyageurs|hot-show-photo-maison-augustin-ly
+	</template>
+</category>
+<category>
+	<pattern>DISPONIBILITÉS HÔTEL MAISON AUGUSTIN LY</pattern>
+	<template>
+		Choisir une option|hot-check-maison-augustin-ly
+	</template>
+</category>
+<category>
+	<pattern>MADOU GORÉE</pattern>
+	<template><srai>HÔTEL MADOU GORÉE</srai></template>
+</category>
+<category>
+	<pattern>HÔTEL MADOU GORÉE</pattern>
+	<template>Hôtel|hot-show-madou-goree</template>
+</category>
+<category>
+	<pattern>SERVICES HÔTEL MADOU GORÉE</pattern>
+	<template>
+		Fourchette de prix (par nuit): 82 € - 85 € (Selon les tarifs moyens d'une chambre standard)
+		Nombre de chambres: 5
+	</template>
+</category>
+<category>
+	<pattern>PHOTOS HÔTEL MADOU GORÉE</pattern>
+	<template>
+		Photos de voyageurs|hot-show-photo-madou-goree
+	</template>
+</category>
+<category>
+	<pattern>DISPONIBILITÉS HÔTEL MADOU GORÉE</pattern>
+	<template>
+		Choisir une option|hot-check-madou-goree
+	</template>
+</category>
+<category>
+	<pattern>LA MAISON DU MARIN</pattern>
+	<template><srai>HÔTEL LA MAISON DU MARIN</srai></template>
+</category>
+<category>
+	<pattern>HÔTEL LA MAISON DU MARIN</pattern>
+	<template>Hôtel|hot-show-la-maison-du-marin</template>
+</category>
+<category>
+	<pattern>SERVICES HÔTEL LA MAISON DU MARIN</pattern>
+	<template>
+		Catégorie de prix : 24 € - 51 € (Selon les tarifs moyens d'une chambre standard)
+		Nombre de chambres: 6
+	</template>
+</category>
+<category>
+	<pattern>PHOTOS HÔTEL LA MAISON DU MARIN</pattern>
+	<template>
+		Photos de voyageurs|hot-show-photo-la-maison-du-marin
+	</template>
+</category>
+<category>
+	<pattern>DISPONIBILITÉS HÔTEL LA MAISON DU MARIN</pattern>
+	<template>
+		Choisir une option|hot-check-la-maison-du-marin
+	</template>
+</category>
+<category>
+	<pattern>GALLE NIWA</pattern>
+	<template><srai>HÔTEL GALLE NIWA</srai></template>
+</category>
+<category>
+	<pattern>HÔTEL GALLE NIWA</pattern>
+	<template>Hôtel|hot-show-galle-niwa</template>
+</category>
+<category>
+	<pattern>SERVICES HÔTEL GALLE NIWA</pattern>
+	<template>
+		Catégorie de prix : 129 € - 139 € (Selon les tarifs moyens d'une chambre standard)
+		Catégorie d'hôtel : 3 étoile(s) — Galle Niwa 3*
+		Nombre de chambres: 5
+	</template>
+</category>
+<category>
+	<pattern>PHOTOS HÔTEL GALLE NIWA</pattern>
+	<template>
+		Photos de voyageurs|hot-show-photo-galle-niwa
+	</template>
+</category>
+<category>
+	<pattern>DISPONIBILITÉS HÔTEL GALLE NIWA</pattern>
+	<template>
+		Choisir une option|hot-check-galle-niwa
+	</template>
+</category>
+</aiml>

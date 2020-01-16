@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+<!-- -->
+<!-- Free software (c) 2011 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- Last modified 10/5/2011 -->
+<!-- -->
+<category>
+	<pattern>GUIDES</pattern>
+	<template><srai>GUIDES TOURISTIQUES</srai></template>
+</category>
+<category>
+	<pattern>GUIDE</pattern>
+	<template><srai>GUIDES TOURISTIQUES</srai></template>
+</category>
+<category>
+	<pattern>GUIDE TOURISTIQUE</pattern>
+	<template><srai>GUIDES TOURISTIQUES</srai></template>
+</category>
+<category>
+	<pattern>TROUVE GUIDE</pattern>
+	<template><srai>GUIDES TOURISTIQUES</srai></template>
+</category>
+<category>
+	<pattern>TROUVE MOI UN GUIDE</pattern>
+	<template><srai>GUIDES TOURISTIQUES</srai></template>
+</category>
+<category>
+	<pattern>TROUVE UN GUIDE</pattern>
+	<template><srai>GUIDES TOURISTIQUES</srai></template>
+</category>
+<category>
+	<pattern>TROUVE MOI UN GUIDE TOURISTIQUE</pattern>
+	<template><srai>GUIDES TOURISTIQUES</srai></template>
+</category>
+<category>
+	<pattern>TROUVE UN GUIDE TOURISTIQUE</pattern>
+	<template><srai>GUIDES TOURISTIQUES</srai></template>
+</category>
+<category>
+	<pattern>TROUVE GUIDE TOURISTIQUE</pattern>
+	<template><srai>GUIDES TOURISTIQUES</srai></template>
+</category>
+<category>
+	<pattern>GUIDES TOURISTIQUES</pattern>
+	<template><bot name="user"/>, C'est amusant d'explorer l'île de Goree seul, Mais les guides touristiques offrent des connaissances en historiques et des connexions d'experts que vous ne pouvez obtenir ailleurs. Choisissez parmi les guides indiqués ici🐻|tou-show-guides
+	</template>
+</category>
+<category>
+	<pattern>GUIDE MOUSSA SENE</pattern>
+	<template>Moussa SENE un guide expert|tou-details-moussa-sene
+	</template>
+</category>
+<category>
+	<pattern>GUIDE CHEIKH KARRÉ</pattern>
+	<template><srai>GUIDE CHEIKH KARRE</srai></template>
+</category>
+<category>
+	<pattern>GUIDE CHEIKH KARRE</pattern>
+	<template>Cheikh KARRÉ un guide expert|tou-details-cheikh-karre
+	</template>
+</category>
+<category>
+	<pattern>GUIDE MOUHAMED MBODJ</pattern>
+	<template>Mouhamed MBODJ un guide expert|tou-details-mouhamed-mbodj
+	</template>
+</category>
+<category>
+	<pattern>GUIDE MIKA GUISSÉ</pattern>
+	<template><srai>GUIDE MIKA GUISSE</srai></template>
+</category>
+<category>
+	<pattern>GUIDE MIKA GUISSE</pattern>
+	<template>Mika GUISSÉ un guide expert|tou-details-mika-guisse
+	</template>
+</category>
+</aiml>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+
+
+<!-- A.L.I.C.E. is a Free software (c) 2001 ALICE AI Foundation -->
+<!-- The ProgramD is open source code released under the terms of the GNU General Public License as published by the Free Software Foundation. -->
+<!-- As This Module   : salutation.aiml   -   version :   0.3   -   MàJ : 14/01/2003 -->
+<!-- auteur : Jean Louis Campion (jlc@Multivers.net) - langue : française -->
+<!-- Complies with AIML 1.0 Tag Set Specification as adopted by the ALICE A.I. Foundation. -->
+<category>
+	<pattern>OÙ EST GORÉE</pattern>
+	<template><srai>OU EST GOREE</srai></template>
+</category>
+<category>
+	<pattern>OÙ EST L ÎLE DE GORÉE</pattern>
+	<template><srai>OU EST GOREE</srai></template>
+</category>
+<category>
+	<pattern>OU EST GORÉE</pattern>
+	<template>
+		<set name="it">      <set name="topic"> GORÉE </set>     </set> se trouvant au centre de la rade que forme la côte sud de la presqu'île du Cap-Vert, à l'abri des vents atlantiques, elle constitue depuis longtemps un abri sûr pour le mouillage des navires. D'origine volcanique, cette île rocheuse est formée de laves refroidies, comme en témoigne l'utilisation du basalte pour diverses constructions. Elle est surplombée au sud par un plateau granitique. Dans l'anse de Gorée près du port une petite plage de sable bénéficie d'une eau claire et de vagues modérées. L'eau y est un peu plus fraîche que sur les plages du continent.|geo-show-photo-dakar-goree
+	</template>
+</category>
+<category>
+	<pattern>ÎLE DE GORÉE</pattern>
+	<template>Quelle partie du Sénégal préférez-vous?</template>
+</category>
+<category>
+	<pattern>POPULATION *</pattern>
+	<template><srai>QUELLE EST LA POPULATION DE GOREE</srai></template>
+</category>
+<category>
+	<pattern>QUELLE EST LA POPULATION DE GOREE</pattern>
+	<template>Les premiers habitants étaient des Lébous. Comme à Saint-Louis, les Européens surtout français se sont installés en nombre sur l'ile et se sont métissés avec la population locale créant ainsi la classe des signares.|geo-show-signare</template>
+</category>
+<category>
+	<pattern>RELIGION POPULATION</pattern>
+	<template><srai>QUELLE EST LA RELIGION DES HABITANTS</srai></template>
+</category>
+<category>
+	<pattern>QUELLE EST LA RELIGION DES HABITANTS</pattern>
+	<template>La plus grande partie de la population est musulmane, mais les catholiques sont également présents.
+		<random>
+			<li>|hel-show-categories</li>
+			<li>|hel-show-categories-2</li>
+			<li>|hel-show-categories-3</li>
+			<li>|hel-show-categories-4</li>
+			<li>|hel-show-categories-5</li>
+		</random>
+	</template>
+</category>
+<category>
+	<pattern>NOMBRE HABITANTS</pattern>
+	<template><srai>QUEL EST LE NOMBRE HABITANTS</srai></template>
+</category>
+<category>
+	<pattern>QUEL EST LE NOMBRE HABITANTS</pattern>
+	<template>Lors du recensement de 2002, Gorée comptait 979 habitants, 164 ménages et 84 concessions. Fin 2007, selon les estimations officielles, la population s'élevait à 1 102 personnes.
+		<random>
+			<li>|hel-show-categories</li>
+			<li>|hel-show-categories-2</li>
+			<li>|hel-show-categories-3</li>
+			<li>|hel-show-categories-4</li>
+			<li>|hel-show-categories-5</li>
+		</random>
+	</template>
+</category>
+<category>
+	<pattern>ACTIVITÉS ÉCONOMIQUES</pattern>
+	<template>Les premiers occupants étaient pêcheurs. Par la suite l'île a connu une véritable prospérité économique, notamment liée au commerce. Aujourd'hui le tourisme et ses dérivés constituent ses principales ressources.
+		<random>
+			<li>|hel-show-categories</li>
+			<li>|hel-show-categories-2</li>
+			<li>|hel-show-categories-3</li>
+			<li>|hel-show-categories-4</li>
+			<li>|hel-show-categories-5</li>
+		</random>
+	</template>
+</category>
+</aiml>

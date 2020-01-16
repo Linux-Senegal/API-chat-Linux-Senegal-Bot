@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+<!-- -->
+<!-- Free software (c) 2011 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- Last modified 10/5/2011 -->
+<!-- -->
+<category>
+	<pattern>AIDE</pattern>
+	<template><srai>HELLOGOREEAIDE</srai></template>
+</category>
+<category>
+	<pattern>HELLOGOREEAIDE</pattern>
+	<template><bot name="user"/>, Hello Goree est un chatbot, votre compagnon de voyage simple d’utilisation pour visiter l'île de Gorée.👌|hel-hello-goree
+	</template>
+</category>
+<category>
+	<pattern>MENU PERSISTENT</pattern>
+	<template>
+		Le menu persistant vous amène directement dans les fonctionnalités de base de Hello Goree.Pour une utilisation rapide nous vous recommandons sont utilisation. 
+	</template>
+</category>
+<category>
+	<pattern>CHAT AVEC MOI</pattern>
+	<template>
+		 Oui vous pouvez chatter avec moi, envoyer un message pour trouver de l'information sur l'île de Gorée.Demandez-moi un mot clés, un nom de lieux, ou une activité je me ferais un plaisir de vous répondre
+	</template>
+</category>
+<category>
+	<pattern>DONATION</pattern>
+	<template>
+		 Le monde a besoin de plus de gens comme vous, <bot name="user"/> ;)|hel-hello-goree-donate
+	</template>
+</category>
+</aiml>

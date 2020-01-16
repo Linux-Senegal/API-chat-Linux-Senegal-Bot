@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+<!-- -->
+<!-- Free software (c) 2011 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- Last modified 10/5/2011 -->
+<!-- -->
+<category>
+	<pattern>TROUVER UN MUSÉE</pattern>
+	<template><srai>MUSÉES</srai></template>
+</category>
+<category>
+	<pattern>TROUVER MUSÉE</pattern>
+	<template><srai>MUSÉES</srai></template>
+</category>
+<category>
+	<pattern>TROUVER MUSÉES</pattern>
+	<template><srai>MUSÉES</srai></template>
+</category>
+<category>
+	<pattern>MUSÉE</pattern>
+	<template><srai>MUSÉES</srai></template>
+</category>
+<category>
+	<pattern>MUSÉES</pattern>
+	<template><bot name="user"/>, Les musées de l'île de gorée sont des lieux chargés d'histoire.Associez-les avec le large éventail de reliques autour de l'île, et un voyage à Gorée devient une expérience visuellement étonnante.🏰|mus-show-museums
+	</template>
+</category>
+<category>
+	<pattern>MUSÉES AFFICHER PLUS 5</pattern>
+	<template>
+		 |mus-show-museums-2
+	</template>
+</category>
+<category>
+	<pattern>MUSÉES AFFICHER PLUS 9</pattern>
+	<template>
+		 |mus-show-museums-3
+	</template>
+</category>
+<category>
+	<pattern>LA MAISON DES ESCLAVES</pattern>
+	<template><srai>MAISON DES ESCLAVES</srai></template>
+</category>
+<category>
+	<pattern>MAISON DES ESCLAVES</pattern>
+	<template>Construite par les Portugais, premiers Européens à fouler le sol de l'île en 1444. Cette maison aurait été la dernière esclaverie en date à Gorée.L’effectif dans cette petite maison variait entre 150 à 200 esclaves. L’attente de départ durait parfois près de trois mois. Ces esclaves ayant à faire à des voiliers pour leur transport.|mus-show-maison-des-esclaves</template>
+</category>
+<category>
+	<pattern>HORAIRES MAISON DES ESCLAVES</pattern>
+	<template>Ouvert du mardi au dimanche de 10h30 à midi et de 14h30 à 18h, le vendredi à partir de 15h. Adulte : 500 FCFA, enfant : 50 FCFA.</template>
+</category>
+<category>
+	<pattern>PHOTOS MAISON DES ESCLAVES</pattern>
+	<template> |mus-show-maison-des-esclaves-photos</template>
+</category>
+<category>
+	<pattern>MUSÉE HISTORIQUE</pattern>
+	<template>
+		Situé sur la pointe nord de l'île – occupe l'ancien Fort d'Estrées. Il est consacré à l'histoire générale du Sénégal, des origines à l'indépendance, et tout particulièrement à celle de l'île de Gorée.
+	</template>
+</category>
+<category>
+	<pattern>HORAIRES MUSÉE HISTORIQUE</pattern>
+	<template>Ouvert du mardi au dimanche de 10h à 17h30. Adulte : 500 FCFA, enfant : 100 FCFA.</template>
+</category>
+<category>
+	<pattern>MUSÉE FEMME</pattern>
+	<template><srai>MUSÉE DE LA FEMME</srai></template>
+</category>
+<category>
+	<pattern>MUSÉE DE LA FEMME</pattern>
+	<template>
+		Aménagé dans l'ancienne demeure d'une riche signare, Victoria Albis, dont le dernier propriétaire avant sa cession à l'état sénégalais fut Armand-Pierre Angrand, Maire de Gorée et de Dakar, le musée a été ouvert en 1994, sous la direction de la femme de lettres Annette Mbaye d’Erneville. Également lieu de formation et d'animation, le musée rend hommage aux femmes du pays, connues ou non, et rend compte de leur vie quotidienne.
+	</template>
+</category>
+<category>
+	<pattern>HORAIRES MUSÉE DE LA FEMME</pattern>
+	<template>500 FCFA par adulte, 200 FCFA par enfant. Ouvert du mardi au dimanche, de 10h30 à 16h.</template>
+</category>
+<category>
+	<pattern>MUSÉE MER</pattern>
+	<template><srai>MUSÉE DE LA MER</srai></template>
+</category>
+<category>
+	<pattern>MUSÉE DE LA MER</pattern>
+	<template>
+		Au milieu des bougainvillées, une grande maison de la Compagnie des Indes construite au XVIIIe siècle abrite le musée ouvert en 1960 par l'IFAN et entièrement restauré en 1995. Il est réputé pour sa collection de 750 espèces de poissons et 700 espèces de mollusques. Les écosystèmes et l'habitat de la région y sont également présentés.
+	</template>
+</category>
+<category>
+	<pattern>HORAIRES MUSÉE DE LA FEMME</pattern>
+	<template>Tarif : 200 FCFA. Tarif réduit : 100 FCFA. Fermé le lundi.</template>
+</category>
+<category>
+	<pattern>PALAIS DU GOUVERNEUR</pattern>
+	<template><srai>ANCIEN PALAIS DU GOUVERNEUR</srai></template>
+</category>
+<category>
+	<pattern>ANCIEN PALAIS DU GOUVERNEUR</pattern>
+	<template>
+		Les anciens commandants supérieurs de Gorée logeaient dans ce palais situé à l'ouest de l'île. La demeure achevée en 1864 est aujourd'hui laissée à l'abandon.
+	</template>
+</category>
+<category>
+	<pattern>ÉCOLE WILLIAM PONTY</pattern>
+	<template><srai>ANCIENNE ÉCOLE WILLIAM-PONTY</srai></template>
+</category>
+<category>
+	<pattern>ANCIENNE ÉCOLE WILLIAM PONTY</pattern>
+	<template>
+		L'École William Ponty (du nom du gouverneur général de l'Afrique occidentale française William Merlaud-Ponty) a été de 1913 à 1937 l'école normale fédérale de l'AOF. Elle a formé de nombreux cadres africains avant d'être transférée à Sébikhotane. Aujourd'hui désaffectée, elle se trouve sur la place du Gouvernement.
+	</template>
+</category>
+<category>
+	<pattern>ÉGLISE</pattern>
+	<template><srai>ÉGLISE SAINT CHARLES BORROMÉE</srai></template>
+</category>
+<category>
+	<pattern>ÉGLISE SAINT CHARLES BORROMÉE</pattern>
+	<template>
+		Cette église a été bâtie en 1830 sur les cendres de la précédente, brûlée par les Anglais au moment de la reprise de l'île. L'édifice est financé par les signares de Gorée. On apprécie son architecture simple, son parvis à colonne donnant sur une place tranquille.
+	</template>
+</category>
+<category>
+	<pattern>MOSQUÉE</pattern>
+	<template>
+		Gorée possède l'une des mosquées les plus anciennes du pays, construite en 1890. Un projet d'aménagement de l'esplanade est en cours. Il prévoit notamment des espaces de détente et l'intégration du site de commerce artisanal situé au bas du Castel. On remarque un élément un peu plus moderne : un faux palmier qui cache les haut-parleurs du bâtiment !
+	</template>
+</category>
+<category>
+	<pattern>MUTANTS</pattern>
+	<template><srai>UNIVERSITÉ DES MUTANTS</srai></template>
+</category>
+<category>
+	<pattern>UNIVERSITÉ DES MUTANTS</pattern>
+	<template>
+		L'Université des Mutants est un centre international de rencontres et de conférences fondé en 1979 à l'initiative du Président Léopold Sédar Senghor et de l'écrivain et philosophe français Roger Garaudy. Le bâtiment de l'Université est devenu, depuis le 3 juin 2014, le siège social de la Fondation Mondiale pour le Mémorial et la Sauvegarde de Gorée.
+	</template>
+</category>
+<category>
+	<pattern>LE CASTEL</pattern>
+	<template><srai>CASTEL</srai></template>
+</category>
+<category>
+	<pattern>CASTEL</pattern>
+	<template>
+		C'est là que l'on se rend en premier, à la pointe sud de l'île. L'allée qui mène au sommet est jalonnée de toiles d'artistes. A l'extrémité ouest se dresse le fort Saint-Michel, construit par les Français en 1892 et sur lequel a été érigé et inauguré en 1999 le Mémorial des esclaves. Derrière, un télémètre datant de 1907. De l'autre côté du castel, un canon portée 14 km. N'a été utilisé qu'une seule fois, le 23 septembre 1940, par la France de Vichy, pour couler un bateau anglais. L'épave est toujours là. Une bouée marque le danger, raison pour laquelle la chaloupe fait un grand tour avant d'entrer dans la rade de l'embarcadère.
+	</template>
+</category>
+</aiml>

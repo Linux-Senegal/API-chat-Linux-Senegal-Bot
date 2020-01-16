@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+
+
+<!-- A.L.I.C.E. is a Free software (c) 2001 ALICE AI Foundation -->
+<!-- The ProgramD is open source code released under the terms of the GNU General Public License as published by the Free Software Foundation. -->
+<!-- As This Module   : salutation.aiml   -   version :   0.3   -   MàJ : 14/01/2003 -->
+<!-- auteur : Jean Louis Campion (jlc@Multivers.net) - langue : française -->
+<!-- Complies with AIML 1.0 Tag Set Specification as adopted by the ALICE A.I. Foundation. -->
+<category>
+	<pattern>INFOS PRATIQUES</pattern>
+	<template>Planifier un voyage à Goree peut être une partie de plaisir, mais il y a aussi beaucoup de terrain à par couvrir. Cliquez sur les catégories ci-dessous pour trouver plus d'informations sur les sujets comme la géographie et les numéros de téléphone utile.|bas-show-basic-info</template>
+</category>
+</aiml>

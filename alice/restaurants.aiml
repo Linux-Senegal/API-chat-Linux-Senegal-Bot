@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+<!-- -->
+<!-- Free software (c) 2011 ALICE A.I. Foundation.   -->
+<!-- This program is open source code released under -->
+<!-- the terms of the GNU General Public License     -->
+<!-- as published by the Free Software Foundation.   -->
+<!-- Complies with AIML 1.0 Tag Set Specification -->
+<!-- as adopted by the ALICE A.I. Foundation.  -->
+<!-- Last modified 10/5/2011 -->
+<!-- -->
+<category>
+	<pattern>J AI ENVIE DE MANGER</pattern>
+	<template><srai>RESTAURANTS</srai></template>
+</category>
+<category>
+	<pattern>ENVIE DE MANGER</pattern>
+	<template><srai>RESTAURANTS</srai></template>
+</category>
+<category>
+	<pattern>OÙ MANGER</pattern>
+	<template><srai>RESTAURANTS</srai></template>
+</category>
+<category>
+	<pattern>OÙ MANGER *</pattern>
+	<template><srai>RESTAURANTS</srai></template>
+</category>
+<category>
+	<pattern>TROUVE MOI OÙ MANGER</pattern>
+	<template><srai>RESTAURANTS</srai></template>
+</category>
+<category>
+	<pattern>OU MANGER</pattern>
+	<template><srai>RESTAURANTS</srai></template>
+</category>
+<category>
+	<pattern>OU MANGER *</pattern>
+	<template><srai>RESTAURANTS</srai></template>
+</category>
+<category>
+	<pattern>TROUVE MOI OU MANGER</pattern>
+	<template><srai>RESTAURANTS</srai></template>
+</category>
+<category>
+	<pattern>TROUVE UN ENDROIT OÙ MANGER</pattern>
+	<template><srai>RESTAURANTS</srai></template>
+</category>
+<category>
+	<pattern>TROUVE UN ENDROIT OU MANGER</pattern>
+	<template><srai>RESTAURANTS</srai></template>
+</category>
+<category>
+	<pattern>RESTAURANT</pattern>
+	<template><srai>RESTAURANTS</srai></template>
+</category>
+<category>
+	<pattern>RESTAURANTS</pattern>
+	<template><bot name="user"/>, vos choix alimentaires sur l'île de Goree sont très exotiques.🍢|res-show-restaurants
+	</template>
+</category>
+<category>
+	<pattern>CHEZ TONTON</pattern>
+	<template><srai>RESTAURANT CHEZ TONTON</srai></template>
+</category>
+<category>
+	<pattern>RESTAURANT CHEZ TONTON</pattern>
+	<template>Cuisine: Française, Repas: Déjeuner, Conseillé pour Familles avec enfants, Horaires d'ouverture: 
+08:00 - 23:00, Adresse : place du débarcadère de gorée | 1er restaurant à gauche dès que vous decendez de la chaloupe
+	</template>
+</category>
+<category>
+	<pattern>CHEVALIER DE BOUFFLERS</pattern>
+	<template><srai>RESTAURANT CHEVALIER DE BOUFFLERS</srai></template>
+</category>
+<category>
+	<pattern>RESTAURANT CHEVALIER DE BOUFFLERS</pattern>
+	<template>
+		Repas: Déjeuner, Adresse : Debarcadere de Goree
+	</template>
+</category>
+<category>
+	<pattern>MADY KO CHEZ TOUTY</pattern>
+	<template><srai>RESTAURANT MADY KO CHEZ TOUTY</srai></template>
+</category>
+<category>
+	<pattern>RESTAURANT MADY KO CHEZ TOUTY</pattern>
+	<template>
+		Cuisine: Française, Adresse : Rue de la Compagnie
+	</template>
+</category>
+<category>
+	<pattern>CHEZ POULOT</pattern>
+	<template><srai>RESTAURANT CHEZ POULOT</srai></template>
+</category>
+<category>
+	<pattern>RESTAURANT CHEZ POULOT</pattern>
+	<template>
+		Cuisine: Française, Adresse : Mole de debarquement
+	</template>
+</category>
+<category>
+	<pattern>LE SAINT GERMAIN</pattern>
+	<template><srai>RESTAURANT LE SAINT GERMAIN</srai></template>
+</category>
+<category>
+	<pattern>RESTAURANT LE SAINT GERMAIN</pattern>
+	<template>
+		Horaires d'ouverture: 08:00 - 23:00, Adresse : place du débarcadère de gorée
+	</template>
+</category>
+<category>
+	<pattern>CHEZ KIKI</pattern>
+	<template><srai>RESTAURANT CHEZ KIKI</srai></template>
+</category>
+<category>
+	<pattern>RESTAURANT CHEZ KIKI</pattern>
+	<template>
+		Cuisines du monde, Cuisine d'Afrique, Restaurant sénégalais, Adresse : place du débarcadère de gorée
+	</template>
+</category>
+<category>
+	<pattern>AMIRAUTE</pattern>
+	<template><srai>RESTAURANT AMIRAUTE</srai></template>
+</category>
+<category>
+	<pattern>RESTAURANT AMIRAUTE</pattern>
+	<template>
+		Échappez à la foule qui remplit les restaurants à la plage dans cet endroit paisible juste après la Maison des esclaves. Vous pouvez vous asseoir sur la terrasse extérieure surplombant la mer et déguster des assiettes décentes de fruits de mer frais.
+		PRIX : mains CFA4000-6500, Horaires d'ouverture: 11:00 - 20:00, Adresse : Rue St-Germain
+	</template>
+</category>
+<category>
+	<pattern>DOLCE VITA</pattern>
+	<template><srai>RESTAURANT DOLCE VITA</srai></template>
+</category>
+<category>
+	<pattern>RESTAURANT DOLCE VITA</pattern>
+	<template>
+		Gorée Dolce Vita Restaurant Traiteur [cuisine Nationale et Internationale] créé depuis mars 2006. wifi 
+	</template>
+</category>
+<category>
+	<pattern>CHEZ MADAME SIGA</pattern>
+	<template><srai>RESTAURANT CHEZ MADAME SIGA</srai></template>
+</category>
+<category>
+	<pattern>RESTAURANT CHEZ MADAME SIGA</pattern>
+	<template>
+		Un petit restaurant au toit de gorée étain à l'extrémité sud de l'île
+	</template>
+</category>
+</aiml>
